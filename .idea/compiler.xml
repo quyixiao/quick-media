@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="audio-plugin" />
+        <module name="base-plugin" />
+        <module name="batik-codec-fix" />
+        <module name="console" />
+        <module name="date-plugin" />
+        <module name="image-plugin" />
+        <module name="imagic-plugin" />
+        <module name="markdown-plugin" />
+        <module name="phantom-plugin" />
+        <module name="qrcode-plugin" />
+        <module name="svg-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="audio-plugin" target="1.8" />
+      <module name="base-plugin" target="1.8" />
+      <module name="batik-codec-fix" target="1.8" />
+      <module name="console" target="1.8" />
+      <module name="date-plugin" target="1.8" />
+      <module name="image-plugin" target="1.8" />
+      <module name="imagic-plugin" target="1.8" />
+      <module name="markdown-plugin" target="1.8" />
+      <module name="phantom-plugin" target="1.8" />
+      <module name="plugins" target="1.8" />
+      <module name="qrcode-plugin" target="1.8" />
+      <module name="quick-media" target="1.8" />
+      <module name="svg-core" target="1.8" />
+      <module name="svg-plugin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

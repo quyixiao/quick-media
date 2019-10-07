@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/plugins/audio-plugin/audio-plugin.iml" filepath="$PROJECT_DIR$/plugins/audio-plugin/audio-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/base-plugin/base-plugin.iml" filepath="$PROJECT_DIR$/plugins/base-plugin/base-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/svg-plugin/batik-codec-fix/batik-codec-fix.iml" filepath="$PROJECT_DIR$/plugins/svg-plugin/batik-codec-fix/batik-codec-fix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/console/console.iml" filepath="$PROJECT_DIR$/console/console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/date-plugin/date-plugin.iml" filepath="$PROJECT_DIR$/plugins/date-plugin/date-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/image-plugin/image-plugin.iml" filepath="$PROJECT_DIR$/plugins/image-plugin/image-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/imagic-plugin/imagic-plugin.iml" filepath="$PROJECT_DIR$/plugins/imagic-plugin/imagic-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/markdown-plugin/markdown-plugin.iml" filepath="$PROJECT_DIR$/plugins/markdown-plugin/markdown-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/phantom-plugin/phantom-plugin.iml" filepath="$PROJECT_DIR$/plugins/phantom-plugin/phantom-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/plugins.iml" filepath="$PROJECT_DIR$/plugins/plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/qrcode-plugin/qrcode-plugin.iml" filepath="$PROJECT_DIR$/plugins/qrcode-plugin/qrcode-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-media.iml" filepath="$PROJECT_DIR$/quick-media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/svg-plugin/svg-core/svg-core.iml" filepath="$PROJECT_DIR$/plugins/svg-plugin/svg-core/svg-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/svg-plugin/svg-plugin.iml" filepath="$PROJECT_DIR$/plugins/svg-plugin/svg-plugin.iml" />
+    </modules>
+  </component>
+</project>
