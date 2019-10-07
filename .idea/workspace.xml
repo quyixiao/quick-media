@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76afaa89-62fc-4b01-a80c-92592a3fb365" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/phantom-plugin/src/test/java/com/github/hui/quick/plugin/test/Html2ImgTest.java" afterPath="$PROJECT_DIR$/plugins/phantom-plugin/src/test/java/com/github/hui/quick/plugin/test/Html2ImgTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/plugins/svg-plugin/svg-core/target/" />
@@ -30,8 +31,8 @@
       <file leaf-file-name="Html2ImgTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/phantom-plugin/src/test/java/com/github/hui/quick/plugin/test/Html2ImgTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="57" column="29" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="29" />
+            <state relative-caret-position="427">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +43,8 @@
       <file leaf-file-name="ImageIO.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/javax/imageio/ImageIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1774">
-              <caret line="1300" column="61" lean-forward="true" selection-start-line="1300" selection-start-column="61" selection-end-line="1300" selection-end-column="61" />
+            <state relative-caret-position="25284">
+              <caret line="1300" column="61" lean-forward="false" selection-start-line="1300" selection-start-column="61" selection-end-line="1300" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -52,7 +53,7 @@
       <file leaf-file-name="Html2ImageByJsWrapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/phantom-plugin/src/main/java/com/github/hui/quick/plugin/phantom/Html2ImageByJsWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
+            <state relative-caret-position="3255">
               <caret line="155" column="31" lean-forward="false" selection-start-line="155" selection-start-column="31" selection-end-line="155" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -259,9 +260,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -632,6 +631,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -855,8 +856,8 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="JUnit.Html2ImgTest.testGoogleRender" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Html2ImgTest.testRender" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Html2ImgTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Html2ImgTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Html2ImgTest.testRender" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.QrCodeWrapperTest.testDepaseQrCode" />
       </list>
     </recent_temporary>
@@ -883,16 +884,14 @@
       <workItem from="1570243028947" duration="930000" />
       <workItem from="1570244071258" duration="3158000" />
       <workItem from="1570422702877" duration="11037000" />
-      <workItem from="1570435064582" duration="1758000" />
+      <workItem from="1570435064582" duration="1797000" />
+      <workItem from="1570436897893" duration="119000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Html2ImgTest_testGoogleRender - 2019.10.07 at 16h 05m 52s.xml">
-      <configuration name="Html2ImgTest.testGoogleRender" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Html2ImgTest_testGoogleRender - 2019.10.07 at 16h 06m 23s.xml">
-      <configuration name="Html2ImgTest.testGoogleRender" configurationId="JUnit" />
+    <history-entry file="Html2ImgTest - 2019.10.07 at 16h 29m 17s.xml">
+      <configuration name="Html2ImgTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Html2ImgTest_testGoogleRender - 2019.10.07 at 16h 07m 17s.xml">
       <configuration name="Html2ImgTest.testGoogleRender" configurationId="JUnit" />
@@ -918,9 +917,12 @@
     <history-entry file="Html2ImgTest_testGoogleRender - 2019.10.07 at 16h 27m 25s.xml">
       <configuration name="Html2ImgTest.testGoogleRender" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Html2ImgTest_testGoogleRender - 2019.10.07 at 16h 30m 14s.xml">
+      <configuration name="Html2ImgTest.testGoogleRender" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17520000" />
+    <option name="totallyTimeSpent" value="17678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-180" width="1920" height="1080" extended-state="6" />
@@ -930,8 +932,8 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="RestServices" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.117797695" sideWeight="0.507877" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IvyIDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -948,8 +950,8 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37148803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29032257" sideWeight="0.49212304" order="7" side_tool="false" content_ui="tabs" />
@@ -1349,7 +1351,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/phantom-plugin/src/main/java/com/github/hui/quick/plugin/phantom/Html2ImageByJsWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
+        <state relative-caret-position="3255">
           <caret line="155" column="31" lean-forward="false" selection-start-line="155" selection-start-column="31" selection-end-line="155" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1359,8 +1361,8 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/javax/imageio/ImageIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1774">
-          <caret line="1300" column="61" lean-forward="true" selection-start-line="1300" selection-start-column="61" selection-end-line="1300" selection-end-column="61" />
+        <state relative-caret-position="25284">
+          <caret line="1300" column="61" lean-forward="false" selection-start-line="1300" selection-start-column="61" selection-end-line="1300" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -1375,8 +1377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/phantom-plugin/src/test/java/com/github/hui/quick/plugin/test/Html2ImgTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="57" column="29" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="29" />
+        <state relative-caret-position="427">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
