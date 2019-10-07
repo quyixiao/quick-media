@@ -52,9 +52,9 @@ public class Html2ImgTest {
         BufferedImage img = null;
         try {
 
-            String url = "https://www.echartsjs.com/examples/zh/editor.html?c=line-aqi";
+            String url = "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E6%9D%8E%E8%BF%9E%E6%9D%B0&rsv_pq=af3fc8d3000243be&rsv_t=7e99qhg2XvX6JOdHNpLGBG6eVmWgyGhldcU1ITXJUqxAucdiL21BKN7lGzs&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_sug3=34&rsv_sug1=5&rsv_sug7=100&rsv_sug2=0&inputT=13922&rsv_sug4=14943";
             long start = System.currentTimeMillis();
-            int width = 2440;
+            int width = 24340;
             int heght = 1880;
 
 
