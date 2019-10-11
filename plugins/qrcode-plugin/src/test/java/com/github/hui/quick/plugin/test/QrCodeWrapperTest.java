@@ -16,8 +16,10 @@ import org.junit.Test;
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.awt.image.RenderedImage;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 /**
@@ -248,7 +250,7 @@ public class QrCodeWrapperTest {
         try {
             String logo = "logo.jpg";
 //            String bg = "qrbg.jpg";
-            String bg = "http://bpic.588ku.com/master_pic/00/10/04/8656612a16e2e6a.jpg";
+            String bg = "https://fenxinapp.oss-cn-hangzhou.aliyuncs.com/admin/00026.jpg";
             BufferedImage img = QrCodeGenWrapper.of(msg)
                     .setW(550)
                     .setDrawPreColor(0xff002fa7) // 宝石蓝
@@ -272,14 +274,104 @@ public class QrCodeWrapperTest {
                     .asBufferedImage();
 
 
-            ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+
+
+            long end = System.currentTimeMillis();
+            //haha(img);
+
+            writePNGImage(img, "/Users/quyixiao/Desktop/aaabb/ddd.png");
+
+
+
+
+           /* ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             ImageIO.write(img, "png", outputStream);
             String img64 = Base64Util.encode(outputStream);
-            System.out.println("<img src=\"data:image/png;base64," + img64 + "\" />");
+            System.out.println("<img src=\"data:image/png;base64," + img64 + "\" />");*/
         } catch (Exception e) {
             System.out.println("create qrcode error! e: " + e);
             Assert.assertTrue(false);
         }
+    }
+
+
+    public static void haha(BufferedImage bf) {
+
+        try {
+
+
+            File file = new File("/Users/quyixiao/Desktop/aaabb/aa.jpeg");
+            mkDir(file);
+            ImageIO.write(bf, "jpeg", file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 递归创建文件夹
+     *
+     * @param file 由目录创建的file对象
+     * @throws FileNotFoundException
+     */
+    public static void mkDir(File file) throws FileNotFoundException {
+        if (file.getParentFile() == null) {
+            file = file.getAbsoluteFile();
+        }
+
+        boolean ans;
+        if (file.getParentFile().exists()) {
+            modifyFileAuth(file);
+            if (!file.exists() && !file.mkdir()) {
+                throw new FileNotFoundException();
+            }
+        } else {
+            mkDir(file.getParentFile());
+            modifyFileAuth(file);
+            if (!file.exists() && !file.mkdir()) {
+                throw new FileNotFoundException();
+            }
+        }
+    }
+
+    /**
+     * 修改文件权限，设置为可读写
+     *
+     * @param file
+     */
+    private static void modifyFileAuth(File file) {
+        boolean ans = file.setExecutable(true, false);
+        ans = file.setReadable(true, false) && ans;
+        ans = file.setWritable(true, false) && ans;
+
+    }
+
+
+    public static boolean writeImage(RenderedImage im, String formatName, String fileName) {
+        boolean result = false;
+        try {
+            result = ImageIO.write(im, formatName, new File(fileName));
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+        return result;
+    }
+
+
+    public static boolean writeJPEGImage(RenderedImage im, String fileName) {
+        return writeImage(im, "JPEG", fileName);
+    }
+
+    public static boolean writeGIFImage(RenderedImage im, String fileName) {
+        return writeImage(im, "GIF", fileName);
+    }
+
+    public static boolean writePNGImage(RenderedImage im, String fileName) {
+        return writeImage(im, "PNG", fileName);
+    }
+
+    public static boolean writeBMPImage(RenderedImage im, String fileName) {
+        return writeImage(im, "BMP", fileName);
     }
 
 
